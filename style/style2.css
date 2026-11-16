@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium',;
+}
+BODY{
+    background-color: gray;
+}
+nav{
+    border: solid black 2px;
+    height: 6vh;
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+padding-top: 5px;
+background-color:rgb(116, 115, 115);
+color: aliceblue;
+justify-content: space-evenly;
+width: 100%;
+border: 5px;
+border-radius: 2px;
+margin: auto;
+z-index: 1000;
+position: sticky;
+border-radius: 10px;
+box-shadow: 1px 1px 5px gray;
+top: 0px;
+
+
+}
+a{
+    text-decoration: none;
+    color: azure;
+    margin: 5px;
+}
+.section1{
+background-image:
+ url(../image/1794594960425.jpg) ;
+position: relative;
+top: -20px;
+height: 500px;
+background-repeat: no-repeat;
+text-align: center;
+background-size: cover;
+max-width: 1000px;
+min-width: 300px;
+margin: 50px auto;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin: 5px;
+    font-weight: 200;
+}
+h5{
+    color: rgb(26, 25, 25);
+    text-align: center;
+        font-size: larger;
+    padding: 10px;
+    position: absolute;
+ top: 250px;
+ left: 250px;
+ right: 250px;
+ font-size: larger;
+ font-size: 30px;
+ 
+}
+ .section1 P{
+
+     color: rgb(44, 199, 13);
+    text-align: center;
+        font-size: larger;
+    padding: 10px;
+    position: absolute;
+ top: 300px;
+ left: 250px;
+ right: 250px;
+ font-size: larger;
+ font-size: 30px;
+}
+
+.bb1{
+
+position: absolute;
+top: 100px;
+   left: 250px;
+   background-color: yellowgreen;
+   border-radius: 5px;
+padding: 10px;
+box-shadow: 1px 1px 5px  yellowgreen;
+}
+.bb2{
+    position: absolute;
+top: 100px;
+   right: 300px;
+   background-color: yellowgreen;
+   border-radius: 5px;
+padding: 10px;
+box-shadow: 1px 1px 5px  yellowgreen;
+}
+#section2 {
+    text-align: center;
+    
+
+}
+ #section2  h2{
+    text-align: center;
+    /* text-decoration: underline ; */
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+    bottom: 5px;
+    color: gold;
+    text-decoration: underline;
+
+}
+
+
+#section2 p{
+    text-align: center;
+    text-align: right;
+    line-height: 50px;
+    color: azure;
+
+}
+.card {
+    
+    text-align: center;
+    border: 5px solid rgb(35, 34, 34);
+    width: fit-content;
+    box-sizing: content-box;
+      text-align: center;
+      position: relative;
+      left: 400px;
+      border-radius: 50px;
+      box-shadow: 5px 5px 10px black 5px 5px 10px rgb(244, 241, 241);
+   
+    }
+    .card h2{
+        color: #c5a467;
+        margin: 5px;
+        margin-left: 15px;
+        background-color: rgba(197,164,103,0.1);
+border: 1px solid rgba(197,164,103,0.2);
+padding: 10px 15px ;
+border-radius: 6px;
+text-align: center;
+font-size: 13px;
+font-weight: 600;
+letter-spacing: 0.5px;
+width: 90%;
+box-sizing: border-box;
+
+    }
+ .card h1{
+color: rgb(11, 11, 11);
+font-style: italic;
+
+ }
+.crdt h2{
+    color: goldenrod;
+    text-align: center;
+
+}
+.crdt h3{
+    color: aliceblue;
+    text-align: center;
+}
+.crdt{
+    display: flex;
+     gap: 15px;
+    padding: 15px;
+    padding-top: 30px;
+    top: 15px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.crd1, .crd2, .crd3{
+    border: solid  ;
+    gap: 15px;
+    padding: 15px;
+    padding-top: 15px;
+    top: 15px;
+    border-radius: 15px;
+    background-color: rgb(82, 82, 82);
+
+}
+ h1{
+    text-decoration: underline;
+    color: gold;
+    position: relative;
+    top: 5px;
+ }
+#section3{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 15px;
+margin-top: 20px;
+
+}
+.box{
+border: solid  ;
+    gap: 15px;
+    padding: 15px;
+    padding-top: 15px;
+    top: 15px;
+    border-radius: 15px;
+    background-color: rgb(82, 82, 82);
+    text-align: center;
+    margin: 10px;
+}
+#section3 h1{
+    text-decoration: underline;
+    color: rgb(27, 27, 27);
+    position: relative;
+    top: 4px;
+
+}
+#section3 h2{
+    color:gold;
+}
+.box h3{
+    color: aliceblue;
+}
+#رؤيتنا{
+    text-decoration:5px underline;
+    
+}
+.section4 p{
+
+border: solid  ;
+    gap: 15px;
+    padding: 15px;
+    padding-top: 15px;
+    top: 15px;
+    border-radius: 15px;
+    background-color: rgb(82, 82, 82);
+    text-align: center;
+    margin: 10px;
+    color: white;
+    
+}
+.section5{
+    display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 15px;
+margin-top: 20px;
+}
+.table{
+    border: solid  ;
+    gap: 15px;
+    padding: 15px;
+    padding-top: 15px;
+    top: 15px;
+    border-radius: 15px;
+    background-color: rgb(82, 82, 82);
+    text-align: center;
+    margin: 10px;
+    box-shadow: 2px 2px 5px white ;
+
+}
+.table h2{
+color:gold;
+}
+#تواصل{
+text-decoration: underline 8px;
+
+} 
+.table h3{
+    color: white;
+   
+}
